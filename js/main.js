@@ -57,7 +57,7 @@ function radomizeImage() {
   if (backgroundOptions === true) {
     backgroundInterval = setInterval(() => {
       let randomNum = Math.floor(Math.random() * bgArray.length);
-      landingBg.style.backgroundImage = `url(../images/${bgArray[randomNum]})`;
+      landingBg.style.backgroundImage = `url(images/${bgArray[randomNum]})`;
     }, 2000);
   }
 }
